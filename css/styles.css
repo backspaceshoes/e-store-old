@@ -112,14 +112,14 @@ img {
     }
 }
 
-video {
-    width: 100%; 
-    height: auto;
-}
-}
-
 .video-player {
     width: 700px;
+}
+
+@media screen and (max-width: 768px) {
+    .video-container {
+        width: 100%;
+    }
 }
 
 /* Background header */
